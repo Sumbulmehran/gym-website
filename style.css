@@ -1,0 +1,38 @@
+body{
+    background-color:antiquewhite ;
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.navbar{
+    width: 100%;
+    background-color: cadetblue;
+    margin-top: -20px;
+}
+.navbar ul li{
+    float: left;
+    list-style: none;
+    padding: 20px 24px;
+
+}
+.navbar ul{
+    overflow: hidden;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+ color: white;
+}
+.navbar ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.container{
+
+    background: url(1.jpg);
+    width: 100%;
+    height: 900px;
+    margin-top: -17px;
+}
